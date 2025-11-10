@@ -14,8 +14,9 @@ uvicorn main:app --reload
 
 # Test Endpoint
 POST http://localhost:8000/recommend
+```
 Body:
-```{
+{
   "gender": "female",
   "age": 62,
   "symptoms": ["pusing", "mual", "sulit berjalan"]
