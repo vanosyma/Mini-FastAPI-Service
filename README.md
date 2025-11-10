@@ -7,11 +7,13 @@ A minimal FastAPI app that recommends hospital departments based on patient symp
 - Uvicorn
 
 # Installation
+```
 pip install fastapi uvicorn
-
+```
 # Run
+```
 uvicorn main:app --reload
-
+```
 # Test Endpoint
 POST http://localhost:8000/recommend
 ```
@@ -26,3 +28,4 @@ Response:
 {
   "recommended_department": "Neurology"
 }
+```
